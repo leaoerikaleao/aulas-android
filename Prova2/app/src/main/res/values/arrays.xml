@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="pratos">
+        <item>Escondidinho</item>
+        <item>Strogonoff</item>
+        <item>Conchiglione</item>
+    </string-array>
+
+    <string-array name="bebidas">
+        <item>Vinho Branco</item>
+        <item>Vinho Tinto</item>
+    </string-array>
+</resources>

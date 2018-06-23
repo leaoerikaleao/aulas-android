@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Fragmento</string>
+    <string name="hello_fragment_text">Olá, sou um fragmento!</string>
+</resources>

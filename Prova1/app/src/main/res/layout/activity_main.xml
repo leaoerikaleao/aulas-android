@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Cadastro de Produtos"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edNome"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:ems="10"
+        android:text="Nome do Produto" />
+
+    <EditText
+        android:id="@+id/edDescricao"
+        android:layout_width="325dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="137dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:text="Descrição do Produto" />
+
+    <Spinner
+        android:id="@+id/spUnidade"
+        android:layout_width="325dp"
+        android:layout_height="41dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="222dp" />
+
+    <RadioButton
+        android:id="@+id/edPerecivel"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/edNome"
+        android:layout_alignTop="@+id/edNaoPerecivel"
+        android:text="Perecivel" />
+
+    <RadioButton
+        android:id="@+id/edNaoPerecivel"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/edNome"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:text="Não Perecivel" />
+
+    <Switch
+        android:id="@+id/swPromocao"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="156dp"
+        android:text="Promoção" />
+
+    <CheckBox
+        android:id="@+id/cbLimiteEstoque"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:text="Limite de Estoque" />
+
+    <CheckBox
+        android:id="@+id/cbAmbienteRef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/swPromocao"
+        android:layout_below="@+id/cbLimiteEstoque"
+        android:layout_marginTop="-114dp"
+        android:text="Ambiente Refrigerado" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btCadastrar" />
+
+</RelativeLayout>

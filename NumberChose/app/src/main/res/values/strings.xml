@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NumberChose</string>
+    <string name="chose_number">Escolha um Numero entre 1 e 10</string>
+    <string name="btn_play">JOGAR</string>
+</resources>

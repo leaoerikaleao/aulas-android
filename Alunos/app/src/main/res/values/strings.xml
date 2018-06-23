@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Alunos</string>
+    <string name="btCadastrar">Cadastrar</string>
+    <string name="verCadastrados">Visualizar Cadastrados</string>
+</resources>

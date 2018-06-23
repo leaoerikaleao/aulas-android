@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lucassartori.dogagecalculate.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_dog_activity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn-calculate"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="130dp"
+            app:srcCompat="@drawable/wolf" />
+
+        <EditText
+            android:id="@+id/txtAge"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="168dp"
+            android:hint="@string/dog_age_txt"
+            android:inputType="number"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="114dp"
+            tools:layout_editor_absoluteY="9dp" />
+
+        <Button
+            android:id="@+id/btn-calculate"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtAge"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="56dp"
+            android:background="@color/bg_btn"
+            android:onClick="btnCalculate"
+            android:text="@string/btn_calculate" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

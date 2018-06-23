@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">prova-01-parte</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Lucas Antonio Ramos Sartori</string>
+    <string name="nav_header_subtitle">lucas@teorema.inf.br</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Titulo</string>
+    <string name="description">descriçao</string>
+    <string name="welcome">Bem vindo!</string>
+    <string name="items">Itens</string>
+    <string name="items_register">Cadastro de Items</string>
+    <string name="save">Salvar</string>
+    <string name="can_promotion">Pode entrar em Promoçao</string>
+    <string name="limit_stock">Limite em Estoque</string>
+    <string name="deve_ser_refrigerado">Deve ser Refrigerado</string>
+    <string name="name">Nome</string>
+    <string name="unity">Unidade</string>
+    <string name="perishable">Perecivel</string>
+    <string name="canPromotion">Promocionavel</string>
+</resources>

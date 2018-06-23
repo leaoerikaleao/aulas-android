@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MediaFinal</string>
+    <string name="txtTitle">Média Final</string>
+    <string name="irMediaFinal">Ir para Média Final</string>
+    <string name="nota1">Nota 1</string>
+    <string name="nota2">Nota 2</string>
+    <string name="nota3">Nota 3</string>
+    <string name="btCalcMedia">Calcular Média</string>
+</resources>

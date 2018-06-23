@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/unity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unity"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/perishable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/perishable"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/canPromotion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/can_promotion"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/limitStock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/limit_stock"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/canRefrigerateLocale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deve_ser_refrigerado"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

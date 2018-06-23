@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IdadeCachorro</string>
+    <string name="btCalcular">Calcular</string>
+    <string name="edIdadeCachorro">Idade</string>
+</resources>

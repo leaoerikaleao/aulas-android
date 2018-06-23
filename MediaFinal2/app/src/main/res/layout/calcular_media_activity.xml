@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="128dp"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/edNota1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="79dp"
+            android:ems="10"
+            android:hint="@string/nota1"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edNota2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edNota1"
+            android:layout_alignStart="@+id/edNota1"
+            android:layout_below="@+id/edNota1"
+            android:layout_marginTop="29dp"
+            android:ems="10"
+            android:hint="@string/nota2"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edNota3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edNota2"
+            android:layout_alignStart="@+id/edNota2"
+            android:layout_below="@+id/edNota2"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:hint="@string/nota3"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/btCalcular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edNota3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:onClick="btCalcular"
+            android:text="@string/btCalcMedia" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

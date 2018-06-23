@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="edEmail">EMAIL</string>
+    <string name="btEntrar">ENTRAR</string>
+    <string name="name">EMAIL</string>
+</resources>

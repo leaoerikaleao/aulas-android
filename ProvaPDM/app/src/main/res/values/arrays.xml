@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="unidades">
+        <item>Quilograma</item>
+        <item>Litro</item>
+        <item>Gramas</item>
+        <item>Caixa</item>
+        <item>Lata</item>
+        <item>Fardo</item>
+        <item>Garrafa</item>
+    </string-array>
+
+</resources>

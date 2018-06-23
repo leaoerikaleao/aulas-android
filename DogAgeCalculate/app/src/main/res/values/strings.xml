@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DogAgeCalculate</string>
+    <string name="btn_calculate">Calcular</string>
+    <string name="dog_age_txt">Digite os anos do Cão</string>
+</resources>

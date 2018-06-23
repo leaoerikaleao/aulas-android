@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="media_name">Calcular Média Final</string>
+    <string name="btCalc">Calcular</string>
+</resources>
